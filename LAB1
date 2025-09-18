@@ -1,0 +1,18 @@
+show databases;
+use newdatabase;
+create table stud ( stdid int(5), stdname varchar(20), dob date, doj date , fee int(5), gender char);
+desc stud;
+insert into stud (stdid,stdname,dob,doj,fee,gender) 
+values(1,'Ani','2006-07-20','2024-8-20',10000,'M');
+insert into stud (stdid,stdname,dob,doj,fee,gender) 
+values(2,'Aneesh','2006-08-10','2024-8-20',10000,'M');
+select*from stud;
+alter table stud add ph_no varchar(10);
+alter table stud rename column ph_no to student_no;
+update stud set student_no='9999999999' where stdid=1;
+update stud set student_no='9999998888' where stdid=2;
+set sql_safe_updates=0;
+select*from stud;
+
+
+
