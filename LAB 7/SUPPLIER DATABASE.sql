@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS supplier_db;
-USE supplier_db;
+CREATE DATABASE IF NOT EXISTS supplier_AnirudhaShriyak_db;
+USE supplier_AnirudhaShriyak_db;
 
 CREATE TABLE Supplier (
     sid INT PRIMARY KEY,
