@@ -1,5 +1,6 @@
 show databases;
-use newdatabase;
+create new_AnirudhaShriyak;
+use newd_AnirudhaShriyak;
 create table stud ( stdid int(5), stdname varchar(20), dob date, doj date , fee int(5), gender char);
 desc stud;
 insert into stud (stdid,stdname,dob,doj,fee,gender) 
