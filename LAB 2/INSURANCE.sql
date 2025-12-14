@@ -1,6 +1,6 @@
-create database car_details;
+create database car_details_AnirudhaShriyak;
 show databases;
-use car_details;
+use car_details_AnirudhaShriyak;
 create table car(reg_no varchar(10), model varchar(20), year int(4),primary key(reg_no));
 create table accident(rep_no int, accident_date date,loc varchar(20),primary key(rep_no));
 create table person (dr_id varchar(10), name varchar(20),  address varchar(30), primary key(dr_id));
