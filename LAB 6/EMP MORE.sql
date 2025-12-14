@@ -1,4 +1,4 @@
-use emp;
+use emp_AnirudhaShriyak;
 create table dept (
  deptno decimal(2 , 0 ) primary key,
  dname varchar(14) default null,
